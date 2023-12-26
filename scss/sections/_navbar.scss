@@ -1,0 +1,20 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+
+.menu {
+    @include gradient;
+
+    .eyad-edit {
+        background-color: #222;
+    }
+
+    li {
+        padding: 0 0.7rem;
+
+        a {
+            color: $white  !important;
+            text-transform: capitalize;
+            font-weight: 600;
+        }
+    }
+}
